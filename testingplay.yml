@@ -1,0 +1,3 @@
+tasks:
+  - name: run this command and ignore the result
+    shell: /usr/bin/w
