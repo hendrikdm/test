@@ -1,4 +1,5 @@
 ---
-tasks:
-  - name: run this command and ignore the result
+- hosts: all
+  tasks:
+  - name: Execute the command in remote shell; stdout goes to the specified file on the remote.
     shell: /usr/bin/w
