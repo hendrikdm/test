@@ -1,9 +1,7 @@
 
-[edit interfaces ge-1/1/4]
-+    unit 301 {
-+        description "PE2 Testing interface 4";
-+        vlan-id 302;
-+        family inet {
-+            address 10.100.104.2/24;
-+        }
-+    }
+[edit interfaces ge-1/1/4 unit 300]
+-    description "PE2 Testing interface 3";
++    description "PE2 Testing interface 3 New";
+[edit interfaces ge-1/1/4 unit 301]
+-    description "PE2 Testing interface 4";
++    description "PE2 Testing interface 4 New";

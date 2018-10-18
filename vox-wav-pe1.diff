@@ -1,9 +1,13 @@
 
-[edit interfaces ge-1/1/5]
-+    unit 203 {
-+        description "PE1 Testing interface 4";
-+        vlan-tags outer 201 inner 102;
-+        family inet {
-+            address 10.100.104.2/24;
-+        }
-+    }
+[edit interfaces ge-1/1/5 unit 100]
+-    description "PE1 Testing interface 1";
++    description "PE1 Testing interface 1 New";
+[edit interfaces ge-1/1/5 unit 200]
+-    description "PE1 Testing interface 2";
++    description "PE1 Testing interface 2 New";
+[edit interfaces ge-1/1/5 unit 202]
+-    description "PE1 Testing interface 3";
++    description "PE1 Testing interface 3 New";
+[edit interfaces ge-1/1/5 unit 203]
+-    description "PE1 Testing interface 4";
++    description "PE1 Testing interface 4 New";
