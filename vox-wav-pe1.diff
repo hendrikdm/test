@@ -1,13 +1,13 @@
 
 [edit interfaces ge-1/1/5 unit 100]
--    description "PE1 Testing interface 1";
-+    description "PE1 Testing interface 1 New";
+-    description "PE1 Testing interface 1 New";
++    description "PE1 Testing interface 1 New 1";
 [edit interfaces ge-1/1/5 unit 200]
--    description "PE1 Testing interface 2";
-+    description "PE1 Testing interface 2 New";
+-    description "PE1 Testing interface 2 New";
++    description "PE1 Testing interface 2 New 1";
 [edit interfaces ge-1/1/5 unit 202]
--    description "PE1 Testing interface 3";
-+    description "PE1 Testing interface 3 New";
+-    description "PE1 Testing interface 3 New";
++    description "PE1 Testing interface 3 New 1";
 [edit interfaces ge-1/1/5 unit 203]
--    description "PE1 Testing interface 4";
-+    description "PE1 Testing interface 4 New";
+-    description "PE1 Testing interface 4 New";
++    description "PE1 Testing interface 4 New 1";
