@@ -1,0 +1,9 @@
+
+[edit interfaces ge-1/1/5]
++    unit 203 {
++        description "PE1 Testing interface 4";
++        vlan-tags outer 201 inner 102;
++        family inet {
++            address 10.100.104.2/24;
++        }
++    }
