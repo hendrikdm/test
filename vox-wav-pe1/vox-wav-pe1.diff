@@ -1,4 +1,4 @@
 
-[edit interfaces ge-1/1/5 unit 200]
--    description "PE1 Testing interface 2 New 2";
-+    description "PE1 Testing interface 2 New 3";
+[edit interfaces ge-1/1/5 unit 202]
+-    description "PE1 Testing interface 3 New 2";
++    description "PE1 Testing interface 3 New 3";

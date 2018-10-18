@@ -1,0 +1,4 @@
+
+[edit interfaces ge-1/1/4 unit 300]
+-    description "PE2 Testing interface 3 New 2";
++    description "PE2 Testing interface 3 New 3";
